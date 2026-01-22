@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Librería - Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light d-flex align-items-center vh-100">
+<div class="container card shadow-sm p-4" style="max-width: 400px;">
+    <h2 class="text-center mb-4">📚 Mi Librería</h2>
+    <div id="mensajeError" class="alert alert-danger d-none">Usuario o clave incorrectos</div>
+    <form id="loginForm">
+        <div class="mb-3">
+            <label class="form-label">Usuario</label>
+            <input type="text" id="username" class="form-control" required>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Contraseña</label>
+            <input type="password" id="password" class="form-control" required>
+        </div>
+        <button type="submit" class="btn btn-primary w-100">Entrar</button>
+    </form>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
